@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-caching = "*"
+flask-compress = "*"
+flask-assets = "*"
+flask-babel = "*"
+flask-login = "*"
+flask-sqlalchemy = "*"
+flask-wtf = "*"
+python-dotenv = "*"
+celery = "*"
+pymysql = "*"
+pyhive = "*"
+kylinpy = "*"
+numpy = "*"
+pandas = "*"
+pyyaml = "*"
+sqlparser = "*"
+
+[dev-packages]
+faker = "*"
+watchdog = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.6"
